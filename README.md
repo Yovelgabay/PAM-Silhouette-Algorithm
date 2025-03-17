@@ -1,11 +1,10 @@
-**PAM + Silhouette Algorithm**
-
-**Overview**
+# PAM + Silhouette Algorithm
+## Overview
 
 This repository contains an implementation of the PAM (Partitioning Around Medoids) + Silhouette Algorithm for clustering, developed in Python and Haskell. The primary goal is to determine the optimal number of clusters in real time while following strict constraints on external library usage.
 
 
-**What is PAM & K-Medoids?**
+## What is PAM & K-Medoids?
 
 The k-medoids problem is a clustering problem similar to k-means. The name was coined by Leonard Kaufman and Peter J. Rousseeuw with their PAM (Partitioning Around Medoids) algorithm. Both the k-means and k-medoids algorithms are partitional (breaking the dataset up into groups) and attempt to minimize the distance between points labeled to be in a cluster and a point designated as the center of that cluster.
 
